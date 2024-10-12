@@ -9,7 +9,7 @@ func main() {
 		"age":  "23",
 	}
 
-	user_infos := map[string]map[string]string{
+	userInfos := map[string]map[string]string{
 		"adress": {
 			"street":  "Rua Colorado",
 			"number":  "283",
@@ -21,8 +21,8 @@ func main() {
 	}
 
 	user["phone"] = "2799999999"
-	user_infos["college"]["type"] = "Bachelor"
+	userInfos["college"]["type"] = "Bachelor"
 
-	fmt.Println(user_infos)
+	fmt.Println(userInfos)
 	fmt.Println(user)
 }
